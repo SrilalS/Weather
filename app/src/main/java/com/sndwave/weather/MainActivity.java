@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                 //textView.append("n " + location.getLongitude() + " " + location.getLatitude());
                 longt= Double.toString(location.getLongitude());
                 latt= Double.toString(location.getLatitude());
-                urts = "https://api.darksky.net/forecast/62881cce04dfebae4028d98a03561c39/"+ latt+ ", " +longt ;
+                urts = "https://api.darksky.net/forecast/YOUR_API_ID_HERE/"+ latt+ ", " +longt ;
                 loadApiData();
             }
 
